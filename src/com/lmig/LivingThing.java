@@ -76,7 +76,7 @@ class Ogre extends LivingThing {
 	public void attack(LivingThing target) {
 		Random r = new Random();
 		double d = r.nextDouble();
-		target.takeDamage(this.attackPower * d);
+		target.takeDamage(this.attackPower);
 	}
 }
 
